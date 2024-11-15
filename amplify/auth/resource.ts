@@ -5,12 +5,6 @@ export const auth = defineAuth({
   loginWith: {
     email: true,
   },
-  userAttributes: {
-    nickname: {
-      mutable: true,
-      required: false
-    }
-  },
   triggers: {
     postConfirmation
   }

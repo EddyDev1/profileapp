@@ -9,7 +9,6 @@ export type UserProfile = {
   id: string,
   profileOwner?: string | null,
   updatedAt: string,
-  nickname?: string | null
 };
 
 export type ModelUserProfileFilterInput = {

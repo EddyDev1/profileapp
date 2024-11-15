@@ -68,7 +68,7 @@ export default function App() {
                         className="box"
                     >
                         <View>
-                            <Heading level="3">Welcome {userprofile?.nickname || userprofile.email}!</Heading>
+                            <Heading level="3">Welcome {userprofile.email.substring(0, userprofile.email.indexOf("@"))}!</Heading>
                             <Heading level="4">This is your email: {userprofile.email}</Heading>
                         </View>
                     </Flex>
